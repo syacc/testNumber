@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'test-number';
+  myNumberValue: number = 42.5;
+
+  constructor() {
+
+  }
 }

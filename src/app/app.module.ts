@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { DxNumberBoxModule } from 'devextreme-angular/ui/number-box';
 import { AppComponent } from './app.component';
 
 @NgModule({
@@ -8,9 +8,11 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    DxNumberBoxModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
+
 export class AppModule { }
